@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    max-width: 10vh;
+}
+
+#cta {
+    background-image: url("./image/skrunda.jpg");
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 100vh;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    font-family: 'Quicksand',
+        sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+    color: white;
+
+}
+
+#cta-text {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 5vh;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#about {
+    background-color: #DDDDDD;
+    padding: 5vh;
+}
+
+h3 {
+    padding: 3vh;
+}
+
+#tourism {
+    background-color: #0e2f44;
+    color: rgb(255, 255, 255);
+}
+
+ul li {
+    padding: 1vh;
+}
+
+footer {
+    margin: 3vh;
+}
